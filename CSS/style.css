@@ -1,0 +1,71 @@
+* {
+  margin: auto;
+  padding: auto;
+  font-family: "Press Start 2P", cursive;
+}
+
+body {
+  background-color: black;
+}
+
+.top-bar {
+  display: flex;
+  margin-top: 60px;
+  margin-bottom: 30px;
+}
+
+h2 {
+  color: white;
+  text-align: center;
+}
+
+input[type="button"] {
+  padding: 10px 30px;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+p {
+  color: white;
+}
+
+.line-bar {
+  display: flex;
+  margin-top: 60px;
+}
+
+.question {
+  background-color: white;
+  font-size: 60px;
+  padding: 40px;
+}
+
+.line {
+  height: 10px;
+  width: 500px;
+  background-color: white;
+}
+
+.game-bar {
+  display: flex;
+}
+
+.check-bar {
+  display: flex;
+  flex-direction: column;
+}
+
+input[type="number"] {
+  width: 400px;
+  height: 100px;
+  font-size: 50px;
+  margin-bottom: 30px;
+  background-color: transparent;
+  color: white;
+  text-align: center;
+  border: 3px solid white;
+}
+
+.score-bar p {
+  margin: 30px;
+}

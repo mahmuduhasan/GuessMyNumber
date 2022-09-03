@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./CSS/style.css" />
+    <title>DOM - Guess My Number</title>
+  </head>
+  <body>
+    <div class="top-bar">
+      <input type="button" value="Again!" class="restart" />
+      <p>&lt; Between 1 to 20 &gt;</p>
+    </div>
+    <h2>Guess My Number</h2>
+    <div class="line-bar">
+      <div class="line"></div>
+      <div class="question">?</div>
+      <div class="line"></div>
+    </div>
+    <div class="game-bar">
+      <div class="check-bar">
+        <input type="number" name="guess" id="guessInput" min="1" max="20" />
+        <input type="button" value="Check!" class="check-btn" />
+      </div>
+      <div class="score-bar">
+        <p id="hint">Start Guessing...</p>
+        <p>&#128175; Score : <span id="lives">20</span></p>
+        <p>&#127942; Highest Score : <span id="highest-score">0</span></p>
+      </div>
+    </div>
+    <script src="./Scripts/script.js"></script>
+  </body>
+</html>
